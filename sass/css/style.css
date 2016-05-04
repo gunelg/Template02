@@ -1,0 +1,34 @@
+/*
+Error: Invalid CSS after "6100700480019": expected "{", was ""
+        on line 6 of /Users/gunel/Desktop/homework /template02/sass/style.scss
+
+1: body{
+2: 	background: red;
+3: }
+4: 
+5: 
+6: 6100700480019
+
+Backtrace:
+/Users/gunel/Desktop/homework /template02/sass/style.scss:6
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1115:in `expected'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1110:in `tok!'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:654:in `block'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:647:in `ruleset'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:673:in `block_child'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:666:in `block_contents'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:39:in `parse'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:403:in `_to_tree'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/gunel/Desktop/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"6100700480019\": expected \"{\", was \"\"\A         on line 6 of /Users/gunel/Desktop/homework /template02/sass/style.scss\A \A 1: body{\A 2: 	background: red;\A 3: }\A 4: \A 5: \A 6: 6100700480019"; }

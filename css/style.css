@@ -1,0 +1,186 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, /*h3*/, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+.height{
+	height: 20px;
+}
+.header{
+	min-height: 150px;
+	
+}
+.home{
+	height: 25px;
+	background: #022a3b;
+}
+.dropdown-menu{
+	/*display: block;*/
+}
+.search_form{
+	position: relative;
+	border-radius: 0;
+}
+.fa-search{
+	position: absolute;
+	top: 18px;
+	right: 8px;
+}
+.first_info{
+	background: #ffffff;
+}
+.first_info .col-md-2{
+	color: gray;
+	padding: 40px;
+	font-size: 14px;
+	line-height: 2;
+	height: 120px;
+}
+.first_info .col-md-2:nth-child(2){
+	border-right: 1px solid darkgray;
+}
+.first_inf0 .btn .btn-primary{
+	background-color: #06a7ea;
+}
+.first_info .fa{
+	padding-left: 8px;
+}
+.menu{
+	min-height: 65px;
+	background: #dee2e6;
+}
+.menu .col-md-2 .button ul li:hover{
+	color: #022a3b;
+}
+
+.map{
+	min-height: 500px;
+}
+.map_fr{
+	position: relative;
+}
+.location{
+	min-height: 403px;
+	background: #0581b5;
+	/*width: 268px;*/
+	position: absolute;
+	top: 200px;
+	right: 125px;
+	text-align: center;
+	color: white;
+}
+.features{
+	background: #dee2e6;
+}
+.offers .col-md-4{
+	height: 292px;
+	padding: 40px;
+}
+
+.agents .row{
+	height: 90px;
+	font-size-adjust: 12px;
+	background: #ffffff;
+	margin: 5px;
+	color: gray;
+}
+.agents img{
+float: left;
+margin: 5px;
+
+}
+.agent_info{
+	float: right;
+	font-size: 14px;
+}
+.properties{
+	background: #022A3B;
+	min-height: 450px;
+}
+.properties .col-md-3{
+	height: 280px;
+	font-size: 14px;
+	color: white;
+}
+.theme_features .col-md-4{
+	min-height: 122px;
+	padding: 10px;
+	color: gray;
+}
+.information{
+	height: 400px;
+	background: #fefefe;
+	text-align: center;
+	padding: 20px;
+	line-height: 2;
+}
+.information .col-md-4{
+	min-height: 365px;
+	
+}
+.information .icons{
+	background: #f2f2f2;
+	width: 136px;
+	height: 136px;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 100px;
+}
+.faMap {
+	position: absolute;
+	top: 25px;
+	right: 47px;
+}
+.fa-compass{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+}
+.fa-key{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+.contacts{
+	color: #0481b6;
+	height: 422px;
+	background: #02344a;
+}
+.contacts .col-md-3{
+	min-height: 340px;
+	color: white;
+}
+.contacts .col-md-3 img{
+	float: left;
+	margin: 5px;
+	margin-right: 10px;
+}
+.contact_info{
+	background: #022a3b;
+}
+.contacts .contactUs{
+	text-align: justify;
+}
+.footer{
+	min-height: 75px;
+	color: #ffffff;
+	background: #022a3b;
+	padding: 20px;
+	font-size: 12px;
+}
